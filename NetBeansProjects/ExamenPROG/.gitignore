@@ -1,0 +1,16 @@
+# Archivos generados por IDEs
+.idea/
+nbproject/
+
+# Archivos compilados de Java
+bin/
+target/
+
+# Archivos de configuración local
+.DS_Store
+.classpath
+.project
+
+# Archivo específico a excluir (ajustar según necesidad)
+archivo-a-excluir.txt
+
