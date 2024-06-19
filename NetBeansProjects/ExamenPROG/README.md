@@ -8,11 +8,13 @@ Este proyecto es una aplicación básica para la gestión de cuentas de clientes
 
 - **Crear Cliente:** Se puede agregar un nuevo cliente especificando su ID, nombre, apellido y saldo inicial de cuenta.
 - **Listar Clientes:** La interfaz muestra la lista de clientes registrados.
+- **Funciones** Los clientes se identifican con la variable ID, siendo que si se cambia esta, la cuenta será otra, por lo que se debe usar el correcto para poder llevar a cabo las transacciones.
 
 ### 2. Gestión de Cuentas
 
 - **Realizar Transacciones:** Se pueden realizar depósitos y retiros en las cuentas de los clientes.
 - **Validación de Retiros:** Se valida que los retiros no excedan el saldo disponible en la cuenta.
+- **Conteo** Se hace uso de la variable "monto" para llevar la cuenta exacta de la cantidad de dinero en la cuenta, mostrando por pantalla un error en caso de que no haya saldo suficiente en la cuenta.
 
 ### 3. Interfaz Gráfica de Usuario (GUI)
 
@@ -30,14 +32,9 @@ El proyecto está estructurado de la siguiente manera:
 
 - **Cliente.java:** Clase que representa a un cliente con su ID, nombre, apellido y saldo.
 - **Cuenta.java:** Clase que gestiona la cuenta de un cliente, permitiendo depósitos y retiros.
-- **Transaccion.java:** Clase que define las transacciones realizadas en las cuentas.
+- **Transaccion.java:** Clase que define las transacciones realizadas en las cuentas, almacenando la información en ArrayList para manejarla cada vez que se ejecuta la aplicación.
 - **GUI.java:** Clase que implementa la interfaz gráfica de usuario usando Java Swing.
 - **Main.java:** Clase principal que inicia la aplicación.
-
-## Requisitos
-
-- Java 8 o superior.
-- IDE compatible con Java (por ejemplo, NetBeans, Eclipse, IntelliJ IDEA).
 
 ## Cómo Ejecutar
 
